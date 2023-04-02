@@ -1,19 +1,19 @@
 const dashboardCodes = {
     dashboard1: {
-        code: ({selFontFam, selbgcolor, selFontsiz}) => `<>
+        code: ({selFontFam, selbgcolor, selFontsiz,selBordercolor,selpadding, selBorderwid,selFontcolor}) => `<>
 <main
     id=""
     className="main"
     style={{
     fontFamily: '${selFontFam}',
     backgroundColor: '${selbgcolor}',
-    fontSize: ${selFontsiz},
-    borderColor: selBordercolor,
-    padding: selpadding,
+    fontSize: '${selFontsiz}',
+    borderColor: '${selBordercolor}',
+    padding: '${selpadding}',
     
-    borderWidth: selBorderwid,
+    borderWidth:'${selBorderwid}',
     borderStyle: 'solid',
-    color:selFontcolor,
+    color:'${selFontcolor}',
     }}
 >
             
