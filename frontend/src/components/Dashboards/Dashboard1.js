@@ -137,7 +137,7 @@ const Dashboard1 = ({
                 {/* End Sales Card */}
                 {/* Revenue Card */}
                 <div className="col-xxl-4 col-md-6">
-                  <div className="card info-card revenue-card"  style={{ borderRadius: selBorderrad ,borderWidth: selBorderwid,borderColor: selBordercolor}}>
+                  <div className="card info-card revenue-card"  style={{ borderRadius: selBorderrad ,borderColor: selBordercolor,borderWidth: selBorderwid, borderStyle: 'solid'}}>
                     <div className="filter">
                       <a className="icon" href="#" data-bs-toggle="dropdown">
                         <i className="bi bi-three-dots" />
@@ -190,7 +190,7 @@ const Dashboard1 = ({
                 {/* End Revenue Card */}
                 {/* Customers Card */}
                 <div className="col-xxl-4 col-xl-12">
-                  <div className="card info-card customers-card"  style={{ borderRadius: selBorderrad }}>
+                  <div className="card info-card customers-card"  style={{ borderRadius: selBorderrad,borderColor: selBordercolor,borderWidth: selBorderwid, borderStyle: 'solid' }}>
                   
                     <div className="filter">
                       <a className="icon" href="#" data-bs-toggle="dropdown">
@@ -241,7 +241,7 @@ const Dashboard1 = ({
                 {/* End Customers Card */}
                 {/* Reports */}
                 <div className="col-12">
-                  <div className="card"  style={{ borderRadius: selBorderrad }}>
+                  <div className="card"  style={{ borderRadius: selBorderrad,borderColor: selBordercolor,borderWidth: selBorderwid, borderStyle: 'solid' }}>
                     <div className="filter">
                       <a className="icon" href="#" data-bs-toggle="dropdown">
                         <i className="bi bi-three-dots" />
@@ -280,7 +280,7 @@ const Dashboard1 = ({
                 {/* End Reports */}
                 {/* Recent Sales */}
                 <div className="col-12">
-                  <div className="card recent-sales overflow-auto"  style={{ borderRadius: selBorderrad }}>
+                  <div className="card recent-sales overflow-auto"  style={{ borderRadius: selBorderrad,borderColor: selBordercolor,borderWidth: selBorderwid, borderStyle: 'solid' }}>
                     <div className="filter">
                       <a className="icon" href="#" data-bs-toggle="dropdown">
                         <i className="bi bi-three-dots" />
@@ -404,7 +404,7 @@ const Dashboard1 = ({
                 {/* End Recent Sales */}
                 {/* Top Selling */}
                 <div className="col-12">
-                  <div className="card top-selling overflow-auto"  style={{ borderRadius: selBorderrad }}>
+                  <div className="card top-selling overflow-auto"  style={{ borderRadius: selBorderrad,borderColor: selBordercolor,borderWidth: selBorderwid, borderStyle: 'solid' }}>
                     <div className="filter">
                       <a className="icon" href="#" data-bs-toggle="dropdown">
                         <i className="bi bi-three-dots" />
@@ -532,7 +532,7 @@ const Dashboard1 = ({
             {/* Right side columns */}
             <div className="col-lg-4">
               {/* Recent Activity */}
-              <div className="card"  style={{ borderRadius: selBorderrad , borderWidth:selBorderwid, borderColor:selBordercolor }}>
+              <div className="card"  style={{ borderRadius: selBorderrad , borderWidth:selBorderwid, borderColor:selBordercolor , borderStyle: 'solid'}}>
                 <div className="filter"  >
                   <a className="icon" href="#" data-bs-toggle="dropdown">
                     <i className="bi bi-three-dots" />
@@ -625,7 +625,7 @@ const Dashboard1 = ({
               </div>
               {/* End Recent Activity */}
               {/* Budget Report */}
-              <div className="card"  style={{ borderRadius: selBorderrad }}>
+              <div className="card"  style={{ borderRadius: selBorderrad ,borderColor: selBordercolor,borderWidth: selBorderwid, borderStyle: 'solid'}}>
                 <div className="filter">
                   <a className="icon" href="#" data-bs-toggle="dropdown">
                     <i className="bi bi-three-dots" />
@@ -664,7 +664,7 @@ const Dashboard1 = ({
               </div>
               {/* End Budget Report */}
               {/* Website Traffic */}
-              <div className="card"  style={{ borderRadius: selBorderrad }}>
+              <div className="card"  style={{ borderRadius: selBorderrad,borderColor: selBordercolor,borderWidth: selBorderwid, borderStyle: 'solid' }}>
                 <div className="filter">
                   <a className="icon" href="#" data-bs-toggle="dropdown">
                     <i className="bi bi-three-dots" />
