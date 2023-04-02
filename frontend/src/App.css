@@ -1,0 +1,12 @@
+.custom-header{
+  background-color: rgb(19, 19, 19);
+  padding: 50px;
+}
+
+.header-title{
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  font-family: Montserrat;
+}
