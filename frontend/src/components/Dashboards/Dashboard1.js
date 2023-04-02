@@ -40,9 +40,6 @@ const Dashboard1 = ({
 
   return (
     <>
-    <div>
-      <button onClick={e => exportCode()}>Export code</button>
-    </div>
       <main
         id=""
         className="main"
@@ -703,7 +700,7 @@ const Dashboard1 = ({
               </div>
               {/* End Website Traffic */}
               {/* News & Updates Traffic */}
-              <div className="card"  style={{ borderRadius: selBorderrad }}>
+              <div className="card"  style={{ borderRadius: selBorderrad,borderColor: selBordercolor,borderWidth: selBorderwid, borderStyle: 'solid' }}>
                 <div className="filter">
                   <a className="icon" href="#" data-bs-toggle="dropdown">
                     <i className="bi bi-three-dots" />
@@ -738,6 +735,9 @@ const Dashboard1 = ({
           </div>
         </section>
       </main>
+      <div>
+      <button type ="button" className= "btn btn-outline-primary btn-rounded w-25" data-mdb-ripple-color="dark"  onClick={e => exportCode()}>Export code</button>
+    </div>
     </>
   );
 };
