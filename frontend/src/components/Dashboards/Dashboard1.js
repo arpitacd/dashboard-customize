@@ -41,7 +41,7 @@ const Dashboard1 = ({
   return (
     <>
     <div>
-      <button></button>
+      <button onClick={e => exportCode()}>Export code</button>
     </div>
       <main
         id=""
